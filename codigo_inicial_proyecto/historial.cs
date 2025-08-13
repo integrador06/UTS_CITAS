@@ -16,5 +16,10 @@ namespace codigo_inicial_proyecto
         {
             InitializeComponent();
         }
+
+        private void historial_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

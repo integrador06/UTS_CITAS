@@ -57,6 +57,7 @@
             this.Controls.Add(this.label1);
             this.Name = "historial";
             this.Text = "historial";
+            this.Load += new System.EventHandler(this.historial_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
