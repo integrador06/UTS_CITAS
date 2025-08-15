@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace codigo_inicial_proyecto
 {
-    public partial class Form1 : Form
+    public partial class FrmLogin : Form
     {
-        public Form1()
+        public FrmLogin()
         {
             InitializeComponent();
         }
@@ -56,6 +56,9 @@ namespace codigo_inicial_proyecto
                             else if (rol == "Paciente")
                             {
                                 //formulario de Paciente
+                                RolPacientecs rolPacientecs = new RolPacientecs();
+                                rolPacientecs.Show();
+                             
 
                             }
                             else if (rol == "Psicologo")
@@ -84,6 +87,16 @@ namespace codigo_inicial_proyecto
 
             RegistroForm registro = new RegistroForm();
             registro.ShowDialog();
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void txt_usuario_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
