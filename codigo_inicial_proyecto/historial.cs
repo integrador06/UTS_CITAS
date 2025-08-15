@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace codigo_inicial_proyecto
+{
+    public partial class historial : Form
+    {
+        public historial()
+        {
+            InitializeComponent();
+        }
+
+        private void historial_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
