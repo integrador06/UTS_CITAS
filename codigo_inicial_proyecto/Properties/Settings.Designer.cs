@@ -8,11 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-<<<<<<< HEAD
-namespace EspecialistaPROYECTO.Properties
-=======
-namespace pantalla_consulta.Properties
->>>>>>> d19d37de272cfe746cc16444efb72f0804acc1d5
+namespace codigo_inicial_proyecto.Properties
 {
 
 

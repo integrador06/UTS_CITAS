@@ -4,11 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-<<<<<<< HEAD
-namespace EspecialistaPROYECTO
-=======
-namespace pantalla_consulta
->>>>>>> d19d37de272cfe746cc16444efb72f0804acc1d5
+namespace codigo_inicial_proyecto
 {
     internal static class Program
     {
@@ -20,7 +16,7 @@ namespace pantalla_consulta
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FrmLogin());
         }
     }
 }
