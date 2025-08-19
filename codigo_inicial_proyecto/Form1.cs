@@ -1,4 +1,5 @@
-﻿using System;
+﻿using codigo_inicial_proyecto.pantalla_consulta;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,7 @@ namespace codigo_inicial_proyecto
 
         private void btnIniciarSecion_Click(object sender, EventArgs e)
         {
+           
             if (string.IsNullOrWhiteSpace(txt_usuario.Text) || string.IsNullOrWhiteSpace(txt_contraseña.Text))
             {
                 MessageBox.Show("Ingrese usuario y contraseña.");
