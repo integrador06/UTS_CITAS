@@ -94,11 +94,11 @@
     <Compile Include="nuevo.Designer.cs">
       <DependentUpon>nuevo.cs</DependentUpon>
     </Compile>
-    <Compile Include="pantallaCONSULTA.cs">
+    <Compile Include="pantalla_pacientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pantallaCONSULTA.Designer.cs">
-      <DependentUpon>pantallaCONSULTA.cs</DependentUpon>
+    <Compile Include="pantalla_pacientes.Designer.cs">
+      <DependentUpon>pantalla_pacientes.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -135,8 +135,8 @@
     <EmbeddedResource Include="nuevo.resx">
       <DependentUpon>nuevo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="pantallaCONSULTA.resx">
-      <DependentUpon>pantallaCONSULTA.cs</DependentUpon>
+    <EmbeddedResource Include="pantalla_pacientes.resx">
+      <DependentUpon>pantalla_pacientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

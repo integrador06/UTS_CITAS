@@ -79,8 +79,6 @@ namespace codigo_inicial_proyecto
         private void btnRegistrar_Click_1(object sender, EventArgs e)
         {
 
-            nuevo p2 = new nuevo();
-            p2.ShowDialog();
             RegistroForm registro = new RegistroForm();
             registro.ShowDialog();
 
