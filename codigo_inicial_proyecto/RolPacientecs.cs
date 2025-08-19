@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace codigo_inicial_proyecto
@@ -21,7 +14,7 @@ namespace codigo_inicial_proyecto
         {
             SeleccionarCita seleccionarCita = new SeleccionarCita();
             seleccionarCita.Show();
-            
+
         }
 
         private void btexit_Click(object sender, EventArgs e)

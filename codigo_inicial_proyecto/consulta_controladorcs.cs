@@ -2,12 +2,9 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace codigo_inicial_proyecto.pantalla_consulta
+namespace codigo_inicial_proyecto
 {
     internal class consulta_controlador
     {
@@ -16,8 +13,8 @@ namespace codigo_inicial_proyecto.pantalla_consulta
             //constructor vacío
         }
 
-      
-        
+
+
         public bool AgregarConsulta(consulta consulta)
         {
             try

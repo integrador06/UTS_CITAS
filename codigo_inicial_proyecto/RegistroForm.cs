@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace codigo_inicial_proyecto
@@ -25,7 +18,7 @@ namespace codigo_inicial_proyecto
             cmbRol.Items.Add("Paciente");
             cmbRol.Items.Add("Psicologo");
         }
-        
+
 
         private void btnRegistrar_Click_1(object sender, EventArgs e)
         {
@@ -46,7 +39,7 @@ namespace codigo_inicial_proyecto
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
                         cmd.Parameters.AddWithValue("@usuario", txtUsuario.Text);
-                        cmd.Parameters.AddWithValue("@contraseña", txtContraseña.Text); 
+                        cmd.Parameters.AddWithValue("@contraseña", txtContraseña.Text);
                         cmd.Parameters.AddWithValue("@rol", cmbRol.SelectedItem.ToString());
 
                         cmd.ExecuteNonQuery();
@@ -56,7 +49,7 @@ namespace codigo_inicial_proyecto
                 MessageBox.Show("Usuario registrado con éxito.");
                 this.Close();
             }
-            catch (Exception )
+            catch (Exception)
             {
                 MessageBox.Show("Error al registrar el usuario ");
             }

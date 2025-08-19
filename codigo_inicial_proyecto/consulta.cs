@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace codigo_inicial_proyecto.pantalla_consulta
+namespace codigo_inicial_proyecto
 {
-   
+
     internal class consulta
     {
         public consulta()
