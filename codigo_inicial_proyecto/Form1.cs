@@ -46,6 +46,8 @@ namespace codigo_inicial_proyecto
                             if (rol == "Doctor")
                             {
                                 //formulario doctor
+                                 pantalla_pacientes consulta = new pantalla_pacientes();
+                                 consulta.Show();
                             }
                             else if (rol == "Paciente")
                             {
@@ -58,6 +60,8 @@ namespace codigo_inicial_proyecto
                             else if (rol == "Psicologo")
                             {
                                 //formulario de Psicologo
+                                pantalla_pacientes consulta = new pantalla_pacientes();
+                                consulta.Show();
 
                             }
 

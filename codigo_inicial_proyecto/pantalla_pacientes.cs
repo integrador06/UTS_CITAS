@@ -167,6 +167,12 @@ namespace codigo_inicial_proyecto
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pantalla_comsulta consulta = new pantalla_comsulta();
+            consulta.Show();
+        }
     }
 }
     

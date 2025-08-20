@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace codigo_inicial_proyecto
 {
-    public partial class nuevo : Form
+    public partial class pantalla_comsulta : Form
     {
         static consulta_controlador controlador = new consulta_controlador();
         string connectionString = "workstation id=generador_de_citas.mssql.somee.com;packet size=4096;user id=uts2025_SQLLogin_1;pwd=ueow787blr;data source=generador_de_citas.mssql.somee.com;persist security info=False;initial catalog=generador_de_citas;TrustServerCertificate=True";
@@ -20,7 +20,7 @@ namespace codigo_inicial_proyecto
             txt_trataOmedi.Clear();
             txtObser_adi.Clear();
         }
-        public nuevo()
+        public pantalla_comsulta()
         {
             InitializeComponent();
         }

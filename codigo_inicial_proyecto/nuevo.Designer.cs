@@ -1,6 +1,6 @@
 ﻿namespace codigo_inicial_proyecto
 {
-    partial class nuevo
+    partial class pantalla_comsulta
     {
         /// <summary>
         /// Required designer variable.
@@ -307,7 +307,7 @@
             this.btnGuardar_consulta.UseVisualStyleBackColor = true;
             this.btnGuardar_consulta.Click += new System.EventHandler(this.btnGuardad_consulta_Click);
             // 
-            // nuevo
+            // pantalla_comsulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -323,7 +323,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
-            this.Name = "nuevo";
+            this.Name = "pantalla_comsulta";
             this.Text = "nuevo";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

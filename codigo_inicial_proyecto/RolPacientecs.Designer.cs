@@ -41,18 +41,20 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(49, 68);
+            this.textBox1.Location = new System.Drawing.Point(65, 84);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(207, 28);
+            this.textBox1.Size = new System.Drawing.Size(275, 33);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "¿Qué Quieres hacer hoy?";
             // 
             // GenerarCita
             // 
             this.GenerarCita.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GenerarCita.Location = new System.Drawing.Point(84, 172);
+            this.GenerarCita.Location = new System.Drawing.Point(112, 212);
+            this.GenerarCita.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.GenerarCita.Name = "GenerarCita";
-            this.GenerarCita.Size = new System.Drawing.Size(382, 94);
+            this.GenerarCita.Size = new System.Drawing.Size(509, 116);
             this.GenerarCita.TabIndex = 1;
             this.GenerarCita.Text = "Generar Cita";
             this.GenerarCita.UseVisualStyleBackColor = true;
@@ -61,33 +63,36 @@
             // ModifCita
             // 
             this.ModifCita.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ModifCita.Location = new System.Drawing.Point(84, 286);
+            this.ModifCita.Location = new System.Drawing.Point(112, 352);
+            this.ModifCita.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ModifCita.Name = "ModifCita";
-            this.ModifCita.Size = new System.Drawing.Size(148, 79);
+            this.ModifCita.Size = new System.Drawing.Size(197, 97);
             this.ModifCita.TabIndex = 2;
             this.ModifCita.Text = "Modificar Cita";
             this.ModifCita.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.ForestGreen;
+            this.panel1.BackColor = System.Drawing.Color.SeaGreen;
             this.panel1.Controls.Add(this.btexit);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.ModifCita);
             this.panel1.Controls.Add(this.GenerarCita);
             this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Location = new System.Drawing.Point(14, 28);
+            this.panel1.Location = new System.Drawing.Point(19, 34);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(527, 405);
+            this.panel1.Size = new System.Drawing.Size(703, 498);
             this.panel1.TabIndex = 4;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // btexit
             // 
             this.btexit.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btexit.Location = new System.Drawing.Point(319, 287);
+            this.btexit.Location = new System.Drawing.Point(425, 353);
+            this.btexit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btexit.Name = "btexit";
-            this.btexit.Size = new System.Drawing.Size(142, 78);
+            this.btexit.Size = new System.Drawing.Size(189, 96);
             this.btexit.TabIndex = 11;
             this.btexit.Text = "Salir";
             this.btexit.UseVisualStyleBackColor = true;
@@ -96,20 +101,23 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::codigo_inicial_proyecto.Properties.Resources.utsvirtual;
-            this.pictureBox1.Location = new System.Drawing.Point(324, 28);
+            this.pictureBox1.Location = new System.Drawing.Point(432, 34);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(137, 113);
+            this.pictureBox1.Size = new System.Drawing.Size(183, 139);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
             // RolPacientecs
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(558, 450);
+            this.BackColor = System.Drawing.Color.SeaGreen;
+            this.ClientSize = new System.Drawing.Size(744, 554);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "RolPacientecs";

@@ -48,6 +48,7 @@
             this.labelApellido = new System.Windows.Forms.Label();
             this.labelNombre = new System.Windows.Forms.Label();
             this.labelPaciente = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtHistorial
@@ -220,11 +221,23 @@
             this.labelPaciente.TabIndex = 30;
             this.labelPaciente.Text = "ID paciente";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(548, 239);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(197, 24);
+            this.button1.TabIndex = 50;
+            this.button1.Text = "crear diagnostico";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // pantalla_pacientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtHistorial);
             this.Controls.Add(this.button_Limpiar);
             this.Controls.Add(this.cmbSexo);
@@ -274,5 +287,6 @@
         private System.Windows.Forms.Label labelApellido;
         private System.Windows.Forms.Label labelNombre;
         private System.Windows.Forms.Label labelPaciente;
+        private System.Windows.Forms.Button button1;
     }
 }
